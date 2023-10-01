@@ -11,7 +11,7 @@ import Tooltip from "../toolltip";
 
 export default function CategorySection({ title, detailsList, iconList, image }) {
     return (
-        <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-row  mt-[50px] ">
+        <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-row  mt-[0px] md:mt-[50px] sm:mt-[50px] ">
             <div className="animate-slideRightEnter w-full sm:w-full md:w-2/4 mt-[30px]">
                 <Image
                     width={"100%"}
@@ -22,8 +22,8 @@ export default function CategorySection({ title, detailsList, iconList, image })
                 />
             </div>
             <div className="animate-slideLeftEnter text-dark-blue-color w-full sm:w-full md:w-2/4 text-center md:text-left sm:text-center">
-                <h3 className='text-5xl my-8 sm:mt-2'>{title}</h3>
-                <div className='flex flex-wrap gap-3 justify-center py-8 sm:pt-0'>
+                <h3 className='text-3xl md:text-5xl sm:text-5xl my-8 sm:mt-2'>{title}</h3>
+                <div className='flex flex-wrap gap-3 justify-center py-2 sm:py-8 md:py-8 sm:pt-0'>
                     <Tooltip message={"HTML"}>
                         <AiFillHtml5 size={48} color="#E34F26" />
                     </Tooltip>

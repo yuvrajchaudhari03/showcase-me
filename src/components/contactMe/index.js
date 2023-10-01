@@ -17,8 +17,8 @@ export default function ContactMeComponent() {
                 />
             </div>
             <div className="text-center w-full sm:w-full md:w-2/4 mt-7 ">
-                <h1 className="text-4xl font-bold">Contact Me</h1>
-                <div className="text-light-grey-color text-3xl my-4 leading-[45px]">
+                <h1 className="text-3xl md:text-5xl sm:text-5xl font-bold">Contact Me</h1>
+                <div className="text-light-grey-color text-xl sm:text-3xl md:text-3xl my-4 leading-[38px] sm:leading-[45px] md:leading-[45px]">
                     I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Javascript, React Native and Opensource Development.
                 </div>
                 <SocialMedia containerStyles={'justify-center md:justify-center sm:justify-center'} />
