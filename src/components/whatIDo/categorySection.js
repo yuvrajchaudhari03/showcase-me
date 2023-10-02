@@ -8,6 +8,7 @@ import { TbBrandReactNative, TbBrandNextjs } from 'react-icons/tb';
 import { ImNpm } from 'react-icons/im';
 import { BiLogoReact } from 'react-icons/bi';
 import Tooltip from "../toolltip";
+import { SubHeading } from "../shareComponents/shareComponents";
 
 export default function CategorySection({ title, detailsList, iconList, image }) {
     return (
@@ -22,7 +23,9 @@ export default function CategorySection({ title, detailsList, iconList, image })
                 />
             </div>
             <div className="animate-slideLeftEnter text-dark-blue-color w-full sm:w-full md:w-2/4 text-center md:text-left sm:text-center">
-                <h3 className='text-3xl md:text-5xl sm:text-5xl my-8 sm:mt-2'>{title}</h3>
+                <div className="my-8 sm:mt-2 text-center">
+                    <SubHeading title={title} />
+                </div>
                 <div className='flex flex-wrap gap-3 justify-center py-2 sm:py-8 md:py-8 sm:pt-0'>
                     <Tooltip message={"HTML"}>
                         <AiFillHtml5 size={48} color="#E34F26" />

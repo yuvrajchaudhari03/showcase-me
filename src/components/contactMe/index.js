@@ -3,6 +3,7 @@ import SocialMedia from "../socialMedia";
 import PrimaryButton from "../buttons/primaryButton";
 import ProfilePic from '../../../public/assets/profile-pic.png';
 import AttachmentIcon from '../../../public/assets/download-icon.svg';
+import { MainHeading } from "../shareComponents/shareComponents";
 
 export default function ContactMeComponent() {
     return (
@@ -17,7 +18,7 @@ export default function ContactMeComponent() {
                 />
             </div>
             <div className="text-center w-full sm:w-full md:w-2/4 mt-7 ">
-                <h1 className="text-3xl md:text-5xl sm:text-5xl font-bold">Contact Me</h1>
+                <MainHeading title="Contact Me"/>
                 <div className="text-light-grey-color text-xl sm:text-3xl md:text-3xl my-4 leading-[38px] sm:leading-[45px] md:leading-[45px]">
                     I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Javascript, React Native and Opensource Development.
                 </div>
